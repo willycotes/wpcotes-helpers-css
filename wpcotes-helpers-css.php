@@ -3,7 +3,7 @@
  * Plugin Name: WPCotes - Helpers CSS
  */
 
-add_action( 'wp_enqueue_scripts', 'wpcotes_helpers_css', 10, 1 );
+add_action( 'wp_enqueue_scripts', 'wpcotes_helpers_css', -10, 1 );
 
 if ( ! function_exists( 'wpcotes_helpers_css') ) {
 	function wpcotes_helpers_css() {
